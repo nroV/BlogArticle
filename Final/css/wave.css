@@ -1,0 +1,48 @@
+.custom-shape-divider-bottom-1675136817 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1675136817 svg {
+    position: relative;
+    display: block;
+    width: calc(206% + 1.3px);
+    height: 93px;
+}
+
+.custom-shape-divider-bottom-1675136817 .shape-fill {
+    fill: #1E2B58;
+}
+
+#big{
+    position: relative;
+}
+
+#login{
+    background-color: #1E2B58;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+#login:hover{
+    background-color:#FFCE70;
+    color: #1E2B58;
+    font-weight: bold;
+
+    /* transition: 1s linear; */
+    font-size: 20px;
+   
+}
+.submit-btn{
+    /* background-color: #1E2B58; */
+    color: #1E2B58;
+    font-weight: bold;
+}
+.submit-btn:hover{
+    background-color:#FFCE70;
+}

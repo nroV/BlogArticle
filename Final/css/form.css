@@ -1,0 +1,19 @@
+input[type="radio"] {
+
+  height: 25px;
+  box-sizing: border-box;
+
+}
+
+/* .input-group{
+  height: 425px;
+} */
+.input[type="search"]{
+  height: 125px;
+  width: 50px;
+}
+
+input[type="checkbox"] .form-check-input{
+  height: 55px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.card-img {
+    background: rgba(0, 0, 0, 0.65) url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-blend-mode: darken;
+    background-position: center;
+    height: 100%;
+}
+
+.card-img:hover {
+    background: rgb(0, 0, 0, 0.34) url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-blend-mode: darken;
+    background-position: center;
+    height: 100%;
+}
+
+.card-img-two {
+
+    background: rgba(0, 0, 0, 0.65) url("https://images.unsplash.com/photo-1552664862-db5607e91378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-blend-mode: overlay;
+
+    background-position: center;
+
+    height: 100%;
+}
+
+.card-img-three {
+    background: rgba(0, 0, 0, 0.65) url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 100%;
+}
+
+
+.blogwebsite {
+    background: rgba(0, 0, 0, 0.65) url("https://images.unsplash.com/photo-1661956602139-ec64991b8b16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=665&q=80");
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-blend-mode: darken;
+
+    color: white;
+}
+
+button.btn-outline-warning {}
+
+.btn {
+    background-color: #1E2B58;
+    color: white;
+    border: 0px;
+}
+
+.btn:hover {
+    background-color: #FFD37E;
+    color: #1E2B58;
+
+
+    border: 0px;
+
+}
+
+#btn-explore {
+    background-color: #FFD37E;
+    color: #1E2B58;
+}
+
+#btn-explore:hover {
+    background-color: #1E2B58;
+    color: white;
+    font-weight: bold;
+}
+
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(205% + 1.3px);
+    height: 239px;
+}
+
+.wave .shape-fill {
+    fill: #1E2B58;
+}
+
+#readmore {
+    display: block;
+}
+
+.hidden-container {
+    display: none;
+}
+
+
+.btn-start {
+
+    background-color: #1E2B58;
+    color: white;
+}
+
+.btn-start:hover {
+    background-color: #FFD37E;
+    color: white;
+}
+
+.btn-about-us {
+    background-color: #1E2B58;
+    color: white;
+}
+
+.btn-about-us:hover {
+    background-color: #FFD37E;
+    color: black;
+}
+
+#abtus:hover {
+    color: black;
+}
+
+.up-container {
+
+    background: rgba(0, 0, 0, 0.65) url("https://images.unsplash.com/photo-1552664862-db5607e91378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-blend-mode: overlay;
+
+    background-position: center;
+
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: white;
+    background-color: #1E2B58;
+    border-color: white;
+}
+

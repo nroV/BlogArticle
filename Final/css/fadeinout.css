@@ -1,0 +1,30 @@
+@keyframes fadein{
+    from{
+             filter: brightness(50%);
+    }
+    to{
+        filter: brightness(100%);
+    }
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    animation:  fadein 1s linear;
+
+}
+
+
+div.card{
+        filter:brightness(100%);
+      
+}
+
+div.card:hover{
+    filter:brightness(85%);
+}
+
+
+#img-left:hover{
+    filter:brightness(85%);
+}

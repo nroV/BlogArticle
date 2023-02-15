@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <?php require_once("../../database/data.php") ?>
+
+</head>
+<style>
+    @import url("./font/font.css");
+    @import url("./https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+    @import url("./css/media.css");
+    @import url("./css/hover.css");
+    @import url("./css/form.css");
+
+
+
+    nav {
+        background-color: #1E2B58;
+
+    }
+
+    ul li:last-child {
+        border-radius: 25px;
+    }
+
+    #postblog {
+        background: rgba(0, 0, 0, 0.65) url("https://images.unsplash.com/photo-1661956602139-ec64991b8b16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=665&q=80");
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        background-blend-mode: darken;
+        color: white;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 15px;
+    }
+
+    body {
+        overflow: visible;
+        scroll-behavior: smooth;
+     
+    }
+
+    html {
+  scroll-behavior: smooth;
+}
+<style>
+    .grid-img{
+        clip-path: circle();
+    }
+
+    .card{
+        top:-500px;
+        position: relative;
+        z-index: 31;
+
+        transform: scale(10%) translate(0%,100%);
+
+
+        /* display: none; */
+    }
+
+    img{
+        width: 250px;
+        height:250px;
+        position: absolute;
+        top: -190px;
+        left: 440px;
+        z-index: 61;
+
+    }
+
+    body::before{
+        content: '';
+       filter: blur(500px);
+       filter: brightness(30%);
+
+ 
+
+    }
+</style>
+</style>
+
+<body>
+ <!-- <div class="container">
+        <img src="https://media.istockphoto.com/id/1381221247/photo/beautiful-afro-girl-with-curly-hairstyle.jpg?b=1&s=170667a&w=0&k=20&c=0x91osZOkL8EfhTEEGNa2EeCGN2gdMTNULOsUFW_0i4="
+            class="grid-img"
+        >
+    </div> -->
+    <div class="container text-center my-5">
+        <button class="btn btn-outline-success">Popup button</button>
+    </div>
+ 
+    <div class="container my-5">
+
+            <div class="card border-0 shadow-lg" style="">
+
+
+                <img src="https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Tick_Mark_Circle-512.png" alt="img-logo" srcset=""
+                >
+                <div class="card-header text-center bg-success text-white font-weight-bold d-flex justify-content-between align-items-center" style="font-size: 25px;">
+
+                    <p>Thanks you for your submission</p> <button class="btn text-white font-weight-bold" id="close">close </button></div>
+
+                <div class="body">
+                    <div class="content p-5">
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab porro recusandae sapiente non laudantium ducimus ullam perspiciatis omnis autem at voluptatum dolorum aliquid beatae dolor magni, velit accusantium commodi laboriosam?</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./javascript/one.js"></script>
+    <script src="./javascript/insert.js"></script>
+    <script src="./javascript/form.js"></script>
+    <script>
+        let btn = document.querySelector("button");
+        let btn_close = document.querySelector("#close");
+        let cardppop = document.querySelector(".card");
+        let main = document.querySelector("body");
+
+
+        btn.addEventListener("click",()=>{
+            cardppop.style.transition="3s linear";
+            cardppop.style.display="block"  ;
+            cardppop.style.top="100px"  ;
+            cardppop.style.transform="scale(1) translate(0%,100%)"  ;
+            btn.style.display ="none";
+            main.style.transition="3s linear";
+            main.style.backgroundBlendMode ="darken" ;
+
+        })
+        btn_close.addEventListener("click",()=>{
+            cardppop.style.transition="3s";
+            cardppop.style.display="none"  ;
+
+            cardppop.style.top="-600px"  ;
+            cardppop.style.transform="scale(1%) translate(0%,100%)"  ;
+
+            btn.style.display ="inline-block";
+            main.style.backgroundBlendMode ="" ;
+
+        })
+    </script>
+</body>
+
+</html>
+
+<?php
+
+
+
+?>

@@ -1,0 +1,12 @@
+body {
+
+    font-size: 15px;
+}
+
+section#Production,
+#conpro,
+#card-product {
+    background-color: #1E2B58;
+    color: white;
+
+}

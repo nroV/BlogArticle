@@ -1,0 +1,121 @@
+#top {
+    /* padding-top: 200px;
+      padding-bottom: 200px; */
+
+    border-radius: 20px;
+  }
+
+  .gradient-form {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .gradient-custom-2 {
+    /* fallback for old browsers */
+
+    background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-color: rgba(0, 0, 0, 0.68);
+
+    background-blend-mode: darken;
+
+  }
+
+  .form-outline {
+    display: flex;
+  }
+
+  .text {
+    opacity: 0.5;
+  }
+
+  /* .btn{
+        background-color: #505492;
+        color: white;
+      } */
+  .btn:hover {
+    background-color: #1E2B58;
+    color: white;
+  }
+
+  .gender {
+    display: flex;
+    margin-left: -15px;
+  }
+
+  .choose {
+    margin-left: 70px;
+  }
+
+  input[type=text] {}
+
+  input[type=radio] {
+    height: 20px;
+    width: 20px;
+  }
+
+  input[type=radio]:focus {
+    background-color: #1E2B58;
+  }
+
+  input[type=text]:focus,
+  input[type=email]:focus,
+  input[type=password]:focus,
+  input[type=file]:focus {
+    border: 1px solid #1E2B58;
+  }
+
+  .btn-hov {
+    background-color: white;
+  }
+
+  .btn-hov:hover {
+    background-color: #1E2B58;
+  }
+
+  .btn-hov-one {
+    background-color: white;
+  }
+
+  .row {
+    height: 890px;
+  }
+
+  #login-here {
+
+    display: none;
+    position: relative;
+    left: 1210px;
+    bottom: 66px;
+
+
+    transform: translateX(-50%);
+    transform: translateY(-94%);
+  }
+
+  #pic {
+    display: none;
+    position: relative;
+    transform: translateX(0%);
+
+
+  }
+
+  .over {
+    position: relative;
+
+  }
+
+  #left-form {
+    position: relative;
+
+
+
+
+  }

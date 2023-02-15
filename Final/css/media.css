@@ -1,0 +1,105 @@
+    @media only screen and (max-width: 330px) {
+
+
+
+
+        * {
+            font-size: 20px;
+        }
+
+        #thisproduct{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #what-do-we-do {
+            font-size: 40px;
+        }
+
+        .display-4 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .header-blog {
+            font-size: 35px;
+        }
+
+
+
+    }
+
+ 
+    /* @media only screen and (min-width: 1200px) {
+
+    .display-4{
+        font-size: 50px;
+        text-align: left;
+    }
+} */
+    @media only screen and (min-width: 400px) {
+
+        .display-4 {
+            font-size: 40px;
+            text-align: left;
+        }
+        
+        #thisproduct{
+            font-size: 30px;
+            text-align: center;
+        }
+
+    }
+
+
+    @media only screen and (min-width: 700px) {
+
+        .display-4 {
+            font-size: 60px;
+            text-align: left;
+        }
+    }
+
+
+    @media only screen and (min-width: 900px) {
+
+        .display-4 {
+            font-size: 60px;
+            text-align: left;
+
+        }
+        #thisproduct {
+            font-size: 65px;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (min-width: 400px) {
+
+
+
+
+        * {
+            font-size: 20px;
+        }
+
+        #thisproduct {
+            font-size: 35px;
+            text-align: center;
+        }
+
+        .header-text {
+            font-size: 40px;
+        }
+
+        .display-4 {
+            font-size: 40px;
+            text-align: center;
+        }
+        button.btn-close{
+            margin-right:55px;
+        }
+
+
+
+    }
